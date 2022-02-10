@@ -1619,7 +1619,243 @@
             }
         }
     }
+      if (event.keyCode == 90) {
+      // Z-key (x16 split)
+      wsSend(UINT8_CACHE[17]);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 50);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 100); // one section;
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 150);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 200);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 250);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 300);
 
+    }
+    if (event.keyCode == 83) {
+      // S-key (triple split)
+
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 50);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 100);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 150);
+    }
+    if (event.keyCode == 68) {
+      // D-key (double split)
+      wsSend(UINT8_CACHE[17]);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 50);
+    }
+    
+        if (event.keyCode == 49) {
+      // D-key (double split)
+      wsSend(UINT8_CACHE[17]);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 50);
+    }
+    if (event.keyCode == 65) {
+      // A-key (quad split)
+
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 50);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 100);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 150);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 200);
+    }
+        if (event.keyCode == 16) {
+      // A-key (quad split)
+
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[22]);
+      }, 50);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[22]);
+      }, 100);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[227]);
+      }, 150);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[22]);
+      }, 200);
+                setTimeout(function() {
+        wsSend(UINT8_CACHE[22]);
+      }, 250);
+                setTimeout(function() {
+        wsSend(UINT8_CACHE[22]);
+      }, 300);
+                setTimeout(function() {
+        wsSend(UINT8_CACHE[22]);
+      }, 350);
+                setTimeout(function() {
+        wsSend(UINT8_CACHE[22]);
+      }, 400);
+                setTimeout(function() {
+        wsSend(UINT8_CACHE[22]);
+      }, 450);
+                setTimeout(function() {
+        wsSend(UINT8_CACHE[22]);
+      }, 500);
+          
+    }
+    // Fastsplit macros
+    if (event.keyCode == 86) {
+      // V-key (triple fastsplit)
+
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 0);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 0);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 0);
+    }
+    if (event.keyCode == 88) {
+      // X-key (double fastsplit)
+    
+      wsSend(UINT8_CACHE[27]);//virus
+
+     // setTimeout(function() {
+     //   wsSend(UINT8_CACHE[27]);
+     // }, 0);
+    }
+    if (event.keyCode == 66) {
+      // B-key (quad fastsplit)
+
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 0);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 0);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 0);
+      setTimeout(function() {
+        wsSend(UINT8_CACHE[17]);
+      }, 0);
+    }
+
+    if (event.keyCode == 67) {
+      // C-key (*broken* macro split)
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+      wsSend(UINT8_CACHE[17]);
+    }
+    if (event.keyCode == 38) {
+      // Down linesplit (h)
+      mouseX = window.innerWidth / 2;
+      mouseY = window.innerHeight / 1000;
+      $("canvas").trigger(
+        $.Event("mousemove", { clientX: mouseX, clientY: mouseY })
+      );
+    }
+
+    if (event.keyCode == 40) {
+      // Up linesplit (v)
+      mouseX = window.innerWidth / 2;
+      mouseY = window.innerHeight / 1;
+      $("canvas").trigger(
+        $.Event("mousemove", { clientX: mouseX, clientY: mouseY })
+      );
+    }
+
+    if (event.keyCode == 188) {
+      // Center linesplit (,)
+      mouseX = window.innerWidth / 2;
+      mouseY = window.innerHeight / 2;
+      $("canvas").trigger(
+        $.Event("mousemove", { clientX: mouseX, clientY: mouseY })
+      );
+    }
+
+    if (event.keyCode == 37) {
+      // Horizontal linesplit (Left)
+      mouseX = window.innerWidth / -1;
+      mouseY = window.innerHeight / 2;
+      $("canvas").trigger(
+        $.Event("mousemove", { clientX: mouseX, clientY: mouseY })
+      );
+    }
+    if (event.keyCode == 39) {
+      // Horizontal linesplit (Right)
+      mouseX = window.innerWidth / 1;
+      mouseY = window.innerHeight / 2;
+      $("canvas").trigger(
+        $.Event("mousemove", { clientX: mouseX, clientY: mouseY })
+      );
+    }
+  }
     function keyup(event) {
         const key = processKey(event);
         if (Object.hasOwnProperty.call(pressed, key)) pressed[key] = false;
